@@ -1,9 +1,13 @@
-import { PropsWithChildren } from 'react'
 import styles from './Btn.module.css'
 
-export function Btn({ children }: PropsWithChildren<HTMLButtonElement>) {
+type Props = React.DetailedHTMLProps<
+    React.ButtonHTMLAttributes<HTMLButtonElement>,
+    HTMLButtonElement
+>
+
+export function Btn({ children, ...rest }: Props) {
     return (
-        <button className={styles.container}>
+        <button className={styles.container} {...rest}>
             {children}
         </button>
     )
