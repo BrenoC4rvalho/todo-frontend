@@ -31,12 +31,12 @@ export function App() {
     return prevValue
   }, 0)
 
-  function handleAddTask() {
+  async function handleAddTask() {
     if (!inputValue) {
       return
-  }
+    }
 
-  const newTask: Task = {
+    const newTask: Task = {
       id: new Date().getTime().toString(),
       title: inputValue,
       description: 'inputValue',

@@ -1,34 +1,30 @@
-# React + TypeScript + Vite
+# TODO
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 👀 Como ficou ???
 
-Currently, two official plugins are available:
+<img src="./images/1.png" width="600px"></img>
+----------
+<img src="./images/2.png" width="600px"></img>
+----------
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🧑‍💻 Tecnologias usadas
 
-## Expanding the ESLint configuration
+O projeto foi desenvolvido com as seguintes tecnologias:
+- [TypeScript](https://www.typescriptlang.org/)
+- [React JS](https://pt-br.reactjs.org/)
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## ⌨️ Sobre o projeto
 
-- Configure the top-level `parserOptions` property like this:
+O projeto Todo é uma aplicação web desenvolvida em React, projetada para ajudar os usuários a gerenciar suas tarefas diárias de forma eficiente. A interface do usuário é intuitiva e amigável, permitindo adicionar, marca como concluída e excluir tarefas com facilidade. 
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json', './tsconfig.app.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+## Rodar o projeto
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+Primeiramente é necessário ter o node, caso não tenha faça a instalação dele. [NODE](https://nodejs.org/en/download/) 
 
-terminar o item
-reame.md
-integrar com o backend
+## `npm install`
+
+É necessário dar um "npm install" ou "npm i", para instalar as depêndencias do projeto.
+
+## `npm run dev`
+
+Depois de ter instalado as dependências, basta dar um "npm start", para rodar o projeto em modo desenvolvedor. Abra [http://localhost:5173](http://localhost:5173) para vê o projeto em seu navegador.
